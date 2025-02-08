@@ -7,7 +7,7 @@ This document showcases a collection of colors inspired by Iran's nature, archit
 #### Lajvard (لاجوردی) 
 `#0047AB`🔹 Deep blue inspired by Lapis Lazuli, commonly seen in mosque tiles and Persian miniatures.
 
-![#0047AB](https://img.shields.io/badge/%23FF5733-%23FF5733.svg?style=flat-square&logo=&color=%23FF5733)
+![#0047AB](https://img.shields.io/badge/%230047AB-%230047AB.svg?style=flat-square&logo=&color=%230047AB)
 
 
 
