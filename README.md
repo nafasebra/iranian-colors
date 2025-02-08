@@ -6,10 +6,13 @@ This document showcases a collection of colors inspired by Iran's nature, archit
 
 #### Lajvard (لاجوردی) 
 `#0047AB`🔹 Deep blue inspired by Lapis Lazuli, commonly seen in mosque tiles and Persian miniatures.
+
 <p>
   <span style="display: inline-block; width: 15px; height: 15px; background-color: #0047AB; border-radius: 3px;"></span> 
   <code>#0047AB</code> (Lajvard (لاجوردی))
 </p>
+
+![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
 
 #### Firouzeh (فیروزه‌ای)
 `#40E0D0`🔹 Light turquoise inspired by the famous Neyshabur turquoise stone.
