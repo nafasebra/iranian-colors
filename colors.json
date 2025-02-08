@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Lajvard (لاجوردی)",
+    "hex": "#0047AB",
+    "description": "Deep blue inspired by Lapis Lazuli, commonly seen in mosque tiles and Persian miniatures.",
+    "category": "Nature"
+  },
+  {
+    "name": "Firouzeh (فیروزه‌ای)",
+    "hex": "#40E0D0",
+    "description": "Light turquoise inspired by the famous Neyshabur turquoise stone.",
+    "category": "Nature"
+  },
+  {
+    "name": "Yashm (یشمی)",
+    "hex": "#00A86B",
+    "description": "A calming green shade derived from jade stone.",
+    "category": "Nature"
+  },
+  {
+    "name": "Khaki (خاکی)",
+    "hex": "#C3B091",
+    "description": "Earthy beige inspired by Iran's vast deserts.",
+    "category": "Nature"
+  },
+  {
+    "name": "Mashi (ماشی)",
+    "hex": "#D4AF37",
+    "description": "A golden-yellow color found in Persian carpets.",
+    "category": "Nature"
+  },
+  {
+    "name": "Hennaei (حنايی)",
+    "hex": "#A52A2A",
+    "description": "Reddish-brown, inspired by the color of henna.",
+    "category": "Nature"
+  },
+  {
+    "name": "Khormaei (خرمایی)",
+    "hex": "#8B4513",
+    "description": "Dark brown, resembling the color of Iranian dates.",
+    "category": "Nature"
+  },
+  {
+    "name": "Choobi (چوبی)",
+    "hex": "#966F33",
+    "description": "A warm wood tone found in walnut and oak crafts.",
+    "category": "Nature"
+  },
+  {
+    "name": "Zaferani (زعفرانی)",
+    "hex": "#F4C430",
+    "description": "A golden-yellow hue inspired by saffron, Iran's prized spice.",
+    "category": "Foods & Plants"
+  },
+  {
+    "name": "Zereshki (زرشکی)",
+    "hex": "#900020",
+    "description": "Deep red inspired by barberries, commonly used in Persian cuisine.",
+    "category": "Foods & Plants"
+  },
+  {
+    "name": "Annabi (عنابی)",
+    "hex": "#800000",
+    "description": "Maroon-red inspired by Anab (jujube fruit).",
+    "category": "Foods & Plants"
+  },
+  {
+    "name": "Bademjani (بادمجانی)",
+    "hex": "#5D3A3A",
+    "description": "Dark purple, resembling the skin of Persian eggplants.",
+    "category": "Foods & Plants"
+  },
+  {
+    "name": "Gol Behi (گل‌بهی)",
+    "hex": "#FFB07C",
+    "description": "Peachy-pink, inspired by the color of quince fruit.",
+    "category": "Foods & Plants"
+  },
+  {
+    "name": "Shahedanaei (شاهدانه‌ای)",
+    "hex": "#78866B",
+    "description": "Soft green, inspired by hemp plant leaves.",
+    "category": "Foods & Plants"
+  },
+  {
+    "name": "Nili (نیلی)",
+    "hex": "#4B0082",
+    "description": "A mix of blue and purple, seen in Persian textiles and tilework.",
+    "category": "Architecture & Handicrafts"
+  },
+  {
+    "name": "Arghavani (ارغوانی)",
+    "hex": "#800080",
+    "description": "Rich purple, used in Safavid-era royal garments.",
+    "category": "Architecture & Handicrafts"
+  },
+  {
+    "name": "Goli (گلی)",
+    "hex": "#FF69B4",
+    "description": "Soft pink, common in Persian traditional fabrics.",
+    "category": "Architecture & Handicrafts"
+  },
+  {
+    "name": "Mesi (مسی)",
+    "hex": "#B87333",
+    "description": "A warm copper hue, inspired by Persian copperware.",
+    "category": "Architecture & Handicrafts"
+  },
+  {
+    "name": "Toosi Irani (طوسی ایرانی)",
+    "hex": "#708090",
+    "description": "Soft gray, frequently used in Persian traditional architecture.",
+    "category": "Architecture & Handicrafts"
+  },
+  {
+    "name": "Lajvard Firouzeh (لاجورد فیروزه‌ای)",
+    "hex": "#007BA7",
+    "description": "A blend of lapis blue and turquoise, seen in Persian mosaics.",
+    "category": "Architecture & Handicrafts"
+  },
+  {
+    "name": "Shangarfi (شنگرفی)",
+    "hex": "#E32636",
+    "description": "Bright red-orange, common in Persian miniatures and manuscripts.",
+    "category": "Architecture & Handicrafts"
+  },
+  {
+    "name": "Berenji (برنجی)",
+    "hex": "#D4AF37",
+    "description": "Golden-brass color, inspired by Persian brassware.",
+    "category": "Architecture & Handicrafts"
+  },
+  {
+    "name": "Kahgeli (کاهگلی)",
+    "hex": "#D2B48C",
+    "description": "A warm tan, resembling the traditional mud-brick walls of Iranian villages.",
+    "category": "Unique"
+  },
+  {
+    "name": "Noghrei Irani (نقره‌ای ایرانی)",
+    "hex": "#C0C0C0",
+    "description": "Bright silver, inspired by Persian silver crafts.",
+    "category": "Unique"
+  },
+  {
+    "name": "Sabz Seyedi (سبز سیدی)",
+    "hex": "#4CAF50",
+    "description": "A unique shade of green found in historical tomb tilework.",
+    "category": "Unique"
+  },
+  {
+    "name": "Daryaei (دریایی)",
+    "hex": "#4682B4",
+    "description": "A soft sea blue, resembling the Caspian Sea and Persian Gulf.",
+    "category": "Unique"
+  },
+  {
+    "name": "Fili (فیلی)",
+    "hex": "#808080",
+    "description": "A silvery-gray tone, commonly seen in Persian wool textiles.",
+    "category": "Unique"
+  },
+  {
+    "name": "Mokhammali (مخملی)",
+    "hex": "#560319",
+    "description": "A deep red, found in traditional Persian velvet fabrics.",
+    "category": "Unique"
+  }
+] 
