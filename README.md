@@ -4,6 +4,12 @@ This document showcases a collection of colors inspired by Iran's nature, archit
 
 ## [Preview colors](https://nafasebra.github.io/iranian-colors/) 💎
 
+## [Figma color palette documentation](https://nafasebra.github.io/iranian-colors/figma.md) 🎯
+
+
+---
+
+
 ## Colors Inspired by Iran's Nature 🌿🌄
 
 #### Lajvard (لاجوردی) 
