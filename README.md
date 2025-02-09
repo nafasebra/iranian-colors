@@ -2,6 +2,8 @@
 
 This document showcases a collection of colors inspired by Iran's nature, architecture, food, and crafts. Each color is represented by its name in Persian and English, along with its hex code and a brief description of its origin.
 
+## [Preview colors](https://nafasebra.github.io/iranian-colors/) 💎
+
 ## Colors Inspired by Iran's Nature 🌿🌄
 
 #### Lajvard (لاجوردی) 
