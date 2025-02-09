@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iranian-Inspired Color Palette</title>
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      background: #fafafa;
+      color: #2d3436;
+    }
+    .header {
+      background: linear-gradient(135deg, #2d3436 0%, #000000 100%);
+      text-align: center;
+      color: #fff;
+      padding: 3em 0;
+      margin-bottom: 1em;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    .header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      font-weight: 700;
+    }
+    .header p {
+      font-size: 1.1em;
+      opacity: 0.9;
+      margin-top: 0.5em;
+    }
+    .filter-container {
+      text-align: center;
+      margin: 2em 0;
+    }
+    .filter-container select {
+      padding: 8px 16px;
+      font-size: 1em;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      background: white;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+    .filter-container select:hover {
+      border-color: #2d3436;
+    }
+    .filter-container label {
+      margin-right: 1em;
+      font-weight: 500;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 0 2rem 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 
+        0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 
+        0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    .swatch {
+      height: 150px;
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .swatch h2 {
+      margin: 0;
+      padding: 8px 16px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 8px;
+      font-size: 1em;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      backdrop-filter: blur(4px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .card-content {
+      padding: 1.5rem;
+    }
+    .card-content h3 {
+      margin: 0;
+      font-size: 1.1em;
+      font-weight: 600;
+      margin-bottom: 0.5em;
+    }
+    .card-content p {
+      margin: 0.8em 0;
+      font-size: 0.9em;
+      line-height: 1.5;
+      color: #4a4a4a;
+    }
+    .category {
+      display: inline-block;
+      font-size: 0.8em;
+      color: #666;
+      background: #f5f5f5;
+      padding: 4px 8px;
+      border-radius: 4px;
+      margin-top: 0.5em;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <h1>Iranian-Inspired Color Palette</h1>
+    <p>Explore colors inspired by Iran's rich heritage</p>
+  </div>
+  <div class="filter-container">
+    <label for="categoryFilter">Filter by Category:</label>
+    <select id="categoryFilter">
+      <option value="All">All</option>
+      <option value="Nature">Nature</option>
+      <option value="Foods & Plants">Foods & Plants</option>
+      <option value="Architecture & Handicrafts">Architecture & Handicrafts</option>
+      <option value="Unique">Unique</option>
+    </select>
+  </div>
+  <div id="palette" class="container">
+    <!-- Color cards will be injected here -->
+  </div>
+  <script>
+    let colorsData = [];
+
+    function createCard(color) {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const swatch = document.createElement('div');
+      swatch.className = 'swatch';
+      swatch.style.backgroundColor = color.hex;
+      const swatchText = document.createElement('h2');
+      swatchText.textContent = color.hex;
+      swatch.appendChild(swatchText);
+
+      const cardContent = document.createElement('div');
+      cardContent.className = 'card-content';
+      const title = document.createElement('h3');
+      title.textContent = color.name;
+      const description = document.createElement('p');
+      description.textContent = color.description;
+      const categoryElem = document.createElement('p');
+      categoryElem.className = 'category';
+      categoryElem.textContent = 'Category: ' + color.category;
+
+      cardContent.appendChild(title);
+      cardContent.appendChild(description);
+      cardContent.appendChild(categoryElem);
+
+      card.appendChild(swatch);
+      card.appendChild(cardContent);
+
+      return card;
+    }
+
+    function renderPalette(filter) {
+      const palette = document.getElementById('palette');
+      palette.innerHTML = '';
+      colorsData.forEach(color => {
+         if (filter === 'All' || color.category === filter) {
+             palette.appendChild(createCard(color));
+         }
+      });
+    }
+
+    fetch('colors.json')
+      .then(response => response.json())
+      .then(data => {
+         colorsData = data;
+         renderPalette('All');
+      })
+      .catch(error => console.error('Error loading colors:', error));
+
+    document.getElementById('categoryFilter').addEventListener('change', function() {
+      const filter = this.value;
+      renderPalette(filter);
+    });
+  </script>
+</body>
+</html> 
